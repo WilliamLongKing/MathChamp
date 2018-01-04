@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.testapp" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/loadpic" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:name="com.example.Math_Champ.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.Math_Champ.ActivitySelection" />
+        <activity android:name="com.example.Math_Champ.GradeSelection" />
+        <activity android:name="com.example.Math_Champ.Questions" />
+        <activity android:name="com.example.Math_Champ.ConfirmationScreen" />
+        <activity android:name="com.example.Math_Champ.Instructions" />
+        <activity android:name="com.example.Math_Champ.Results" />
+    </application>
+</manifest>
